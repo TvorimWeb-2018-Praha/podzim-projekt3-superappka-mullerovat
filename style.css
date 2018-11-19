@@ -31,3 +31,127 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+
+.hlavicka {
+	display:flex;
+	justify-content: space-between;
+}
+
+.menu {
+	display: flex;
+	list-style: none;
+	margin:0px;
+	padding:0px;
+}
+
+a {
+	padding: 10px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #25133d;
+}
+
+.menu a:hover {
+	color: white;
+	background: #48418e;
+}
+
+.title {
+	text-transform: uppercase;
+	margin:0px;
+}
+
+.vizual {
+	background-image: url("images/pozadi.jpg");
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.text {
+	position: relative;
+	top: 20px;
+	left: 20px;
+	padding-left: 35px;
+}
+
+.title2 {
+	font-size: 62px;
+	margin:0px;
+	color: white;
+}
+
+.description {
+	font-size: 32px;
+	font-weight: 300;
+	color: white;	
+	padding-right:150px;
+}
+
+.buttons{
+	display: flex;
+	justify-content: flex-start;
+	font-size: 20px;
+	list-style: none;
+}
+
+.button a{
+	color: white;
+	font-weight: 300;
+	padding: 15px;
+	margin-block-start: 0px;
+	margin:10px;
+	border-width: 2px;
+	border-style: solid;
+	border-color:white;
+	border-radius: 5px;
+}
+
+.button a:hover {
+	background: #48418e;
+}
+
+.picture {
+	display: flex;
+	padding-block-end: 0px;
+}
+
+.benefity {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 16px;	
+}
+
+.vyhody {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 20px;
+}
+
+.benefit1 {
+	font-weight:700;
+	color:#48418e;
+}
+
+.ikona {
+	width: 80px;
+	height: 80px;
+	z-index: +5;
+}
+
+.paticka {
+	background-color: #48418e;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 5px;
+	margin: 0px;
+}
