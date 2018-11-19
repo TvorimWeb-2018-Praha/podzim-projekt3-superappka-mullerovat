@@ -46,7 +46,7 @@ body {
 }
 
 a {
-	padding: 10px;
+	padding: 10px 20px;
 	display: block;
 	text-align: center;
 	text-decoration: none;
@@ -60,11 +60,13 @@ a {
 
 .title {
 	text-transform: uppercase;
+	font-weight: 700;	
 	margin:0px;
 }
 
 .vizual {
 	background-image: url("images/pozadi.jpg");
+	padding-top: 40px;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
@@ -95,11 +97,12 @@ a {
 	justify-content: flex-start;
 	font-size: 20px;
 	list-style: none;
+	padding-inline-start: 0px;	
 }
 
 .button a{
 	color: white;
-	font-weight: 300;
+	font-weight: 700;
 	padding: 15px;
 	margin-block-start: 0px;
 	margin:10px;
